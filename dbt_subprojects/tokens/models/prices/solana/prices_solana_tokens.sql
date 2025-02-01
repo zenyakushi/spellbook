@@ -732,5 +732,6 @@ FROM
         ('nap-snap', 'solana', '$NAP', '4G86CMxGsMdLETrYnavMFKPhQzKTvDBYGMRAdVtr72nu', 6),
         ('vine-vine-coin', 'solana', 'VINE', '6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump', 6),
         ('pippin-pippin', 'solana', 'PIPPIN','Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump', 6),
-        ('chillguy-just-a-chill-guy', 'solana', 'CHILLGUY', 'Df6yfrKC8kZE3KNkrHERKzAetSxbrWeniQfyJY4Jpump', 6)
+        ('chillguy-just-a-chill-guy', 'solana', 'CHILLGUY', 'Df6yfrKC8kZE3KNkrHERKzAetSxbrWeniQfyJY4Jpump', 6),
+        ('nodecoin-nodecoin-nc' , 'solana', 'NODECOIN', 'B89Hd5Juz7JP2dxCZXFJWk4tMTcbw7feDhuWGb3kq5qE', 9 )
 ) as temp (token_id, blockchain, symbol, contract_address, decimals)
